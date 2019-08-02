@@ -1,0 +1,439 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+body {
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+ background-color: #1A1A1B;
+}
+.footer{background-color: black;}
+p.p{font-family: 'Anonymous Pro', monospace;}
+@media (min-width: 900px) {
+  body {
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .line{
+    position: relative;
+    top: 25%;  
+    width: 19em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 130%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+  }
+  
+  .anim{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+  from{width: 0;}
+  to{width: 19em;}
+  }
+  @keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+  }
+  .tpbarmain {
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tpbarsub {
+  background-color: black;
+  padding-bottom: 1%;
+}
+}
+@media (max-width: 899px){
+  .out{display:none;}
+  .tpbarmain {
+    background-color: black;
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+.line{
+  position: relative;
+  top: 17%;  
+  width: 19em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 130%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+.anim{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 19em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+.tpbarsub {
+  background-color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+p.p{margin-bottom: 6px;margin-top: 4px;}
+.outof {
+  text-align: center;
+  color: #FFBD39;
+  font-size: 30px;
+  letter-spacing: 8px;
+  font-family:  'Oswald', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  line-height: 0;
+  animation: glitch1 2s infinite;
+}
+.outof:nth-child(2) {
+  color: #FFBD39;
+  animation: glitch2 3.5s infinite;
+}
+  @keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(-2px, -3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(-5px, -2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(-5px, -1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(-2px, -6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }  
+}
+.tpbar>.h1,.h2,.p,
+        a {
+            /* font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+            color: #FFBD39;
+            font-family:  'Oswald', sans-serif;
+            text-decoration: none;
+        }
+
+        .tpbar1 > a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .mid {
+            padding-top: 5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 4%;
+        }
+
+        .midimg{
+          padding-top: 8%;
+          /* background-image : url('dhi2.jpg') */
+      }
+
+        .row {
+            margin: 0%;
+        }
+
+        .rowbg {
+            background-color: #1A1A1B;
+        }
+
+        .colabout>.h1 {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            color : #FFBD39;
+            font-family:  'Oswald', sans-serif;
+        }
+
+        .colabout>#p {
+            padding-bottom: 1%;
+            color: white;
+            font-size: 19px;
+        }
+
+        .p {
+            color: white;
+            font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        }
+        .resume{
+            padding-top:2%;
+            padding-bottom: 2%;
+        }
+
+        .resume > a:link , a:visited{
+                background-color:#1A1A1B;
+                color: #FFBD39;
+                border: 2px solid #FFBD39;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+        }
+
+        .resume > a:hover, a:active {
+                background-color: #FFBD39;
+                color: black;
+              }
+
+
+              .social-icons > a{
+                  display:inline-block;
+                height:3.5rem;
+                width:3.5rem;
+                background-color:#1A1A1B;
+                color:#fff!important;
+                border-radius:100%;
+                text-align:center;
+                font-size:1.5rem;
+                line-height:3.5rem;
+                margin-right:1rem;
+                padding-top: 0px;
+            }
+            .social-icons > a:last-child{margin-right:0}
+            .social-icons > a:hover{background-color:#FFBD39}
+            .social-icons{padding-top:2%;padding-bottom:2%;}
+            @media (min-width: 900px){
+              
+              .outof{display:none;}
+                          .h1 {
+                text-align: center;
+                color: #FFBD39;
+                font-size: 30px;
+                letter-spacing: 8px;
+                font-family:  'Oswald', sans-serif;
+                font-weight: 400;
+                /*Create overlap*/
+                
+                margin: 0;
+                line-height: 0;
+                /*Animation*/
+                
+                animation: glitch1 2.5s infinite;
+              }
+              
+              .h1:nth-child(2) {
+                color: #FFBD39;
+                animation: glitch2 3.5s infinite;
+              }
+              
+              /*.h1:nth-child(3) {
+                color: #FFBD39;
+                animation: glitch3 4.5s infinite;
+              }*/
+              /*Keyframes*/
+              
+                @keyframes glitch1 {
+                  0% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  7% {
+                    transform: skew(-0.5deg, -0.9deg);
+                    opacity: 0.75;
+                  }
+                  10% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  27% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  30% {
+                    transform: skew(0.8deg, -0.1deg);
+                    opacity: 0.75;
+                  }
+                  35% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  52% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  55% {
+                    transform: skew(-1deg, 0.2deg);
+                    opacity: 0.75;
+                  }
+                  50% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  72% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  75% {
+                    transform: skew(0.4deg, 1deg);
+                    opacity: 0.75;
+                  }
+                  80% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                  100% {
+                    transform: none;
+                    opacity: 1;
+                  }
+                }
+                
+                @keyframes glitch2 {
+                  0% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  7% {
+                    transform: translate(-2px, -3px);
+                    opacity: 0.5;
+                  }
+                  10% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  27% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  30% {
+                    transform: translate(-5px, -2px);
+                    opacity: 0.5;
+                  }
+                  35% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  52% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  55% {
+                    transform: translate(-5px, -1px);
+                    opacity: 0.5;
+                  }
+                  50% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  72% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  75% {
+                    transform: translate(-2px, -6px);
+                    opacity: 0.5;
+                  }
+                  80% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                  100% {
+                    transform: none;
+                    opacity: 0.25;
+                  }
+                }  
+              }
+              
