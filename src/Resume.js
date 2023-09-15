@@ -71,7 +71,7 @@ render() {
                       </Link>
                     </li>
                     <li className="nav-item li">
-                      <Link className="nav-link" to="/resume">
+                      <Link className="nav-link" to="/about">
                         About
                       </Link>
                     </li>
@@ -95,20 +95,14 @@ render() {
                         Projects
                       </Link>
                     </li>
-                    <li className="nav-item li">
-                      <Link className="nav-link" to="/certifications">
-                        certifications
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </nav>
             </div>
-            <Route path="/resume" component={About} />
+            <Route path="/about" component={About} />
             <Route path="/skills" component={Skills} />
             <Route path="/education" component={Education} />
             <Route path="/projects" component={Projects} />
-            <Route path="/certifications" component={Certification} />
             <Route path="/experience" component={Experience} />
           </div>
         </Router>
