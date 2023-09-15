@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.33c0eb41.chunk.css",
+    "main.js": "/portfolio/static/js/main.0f787701.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0f787701.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/js/2.75bd9dfa.chunk.js": "/portfolio/static/js/2.75bd9dfa.chunk.js",
+    "static/js/2.75bd9dfa.chunk.js.map": "/portfolio/static/js/2.75bd9dfa.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.7cf3b6524a73f10c932f1ba77c3ec6c9.js": "/portfolio/precache-manifest.7cf3b6524a73f10c932f1ba77c3ec6c9.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.33c0eb41.chunk.css.map": "/portfolio/static/css/main.33c0eb41.chunk.css.map",
+    "static/media/dhi2.jpg": "/portfolio/static/media/dhi2.77723fd6.jpg",
+    "static/media/dhiraj-dommaraju-resume.pdf": "/portfolio/static/media/dhiraj-dommaraju-resume.ca065b65.pdf"
+  }
+}
