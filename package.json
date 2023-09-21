@@ -1,7 +1,7 @@
 {
   "name": "myres",
   "version": "0.1.0",
-  "homepage" : "http://dhirajdkv.github.io/portfolio",
+  "homepage" : "http://dhirajdkv.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
